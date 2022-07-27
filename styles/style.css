@@ -55,3 +55,63 @@ body {
 }
 
 /* carousol section end */
+
+
+
+
+
+
+
+/* media query start */
+/* `xs` returns only a ruleset and no media query */
+/* { ... } */
+
+/* `sm` applies to x-small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+    .carousel-caption h1 {
+        font-size: 20px;
+        line-height: 30px;
+    }
+
+    .carousel-caption p {
+        font-size: 12px;
+        line-height: 18px;
+    }
+
+    .carousel-caption button {
+        font-size: 16px;
+        line-height: 24px;
+    }
+}
+
+/* `md` applies to small devices (landscape phones, less than 768px) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+    .carousel-caption h1 {
+        font-size: 20px;
+        line-height: 30px;
+    }
+
+    .carousel-caption p {
+        font-size: 12px;
+        line-height: 18px;
+    }
+}
+
+/* `lg` applies to medium devices (tablets, less than 992px) */
+@media (min-width: 768px) and (max-width: 992px) {
+    .carousel-caption h1 {
+        font-size: 40px;
+        line-height: 50px;
+    }
+
+    .carousel-caption p {
+        font-size: 16px;
+        line-height: 30px;
+    }
+}
+
+/* `xl` applies to large devices (desktops, less than 1200px) */
+@media (max-width: 1199.98px) {}
+
+/* `xxl` applies to x-large devices (large desktops, less than 1400px) */
+@media (max-width: 1399.98px) {}
