@@ -1,0 +1,29 @@
+/* global section start */
+body {
+    @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+    font-family: 'Poppins', sans-serif;
+}
+
+/* global section end */
+
+
+/* navigation bar start */
+.navbar {
+    margin: 20px 0;
+}
+
+.navbar-brand {
+    font-weight: 600;
+    font-size: 40px;
+    text-align: center;
+    color: #4A4A4A;
+}
+
+.navbar-nav a {
+    font-weight: 400;
+    font-size: 18px;
+    text-align: center;
+    color: #777777;
+}
+
+/* navigation bar end */
