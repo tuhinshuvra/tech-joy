@@ -7,7 +7,7 @@ body {
 .common_btn {
     background: #289BDE;
     border: 1px solid #289BDE;
-    padding: 8px 17px;
+    padding: 10px 20px;
     border-radius: 5px;
     color: #FFFFFF;
 }
@@ -69,18 +69,24 @@ body {
 /* `sm` applies to x-small devices (portrait phones, less than 576px) */
 @media (max-width: 575.98px) {
     .carousel-caption h1 {
-        font-size: 20px;
-        line-height: 30px;
+        font-size: 19px;
+        line-height: 17px;
     }
 
     .carousel-caption p {
         font-size: 12px;
-        line-height: 18px;
+        line-height: 16px;
+        margin: 0 -15px;
     }
 
     .carousel-caption button {
         font-size: 16px;
         line-height: 24px;
+    }
+
+    .common_btn {
+        padding: 4px 10px;
+        margin-bottom: -10px;
     }
 }
 
