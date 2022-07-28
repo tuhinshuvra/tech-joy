@@ -97,6 +97,23 @@ body {
 
 /* popular courses section end */
 
+/* explore institute sectio start */
+.inst-text h1 {
+    font-weight: 600;
+    font-size: 45px;
+    line-height: 60px;
+    color: #1D1D1D;
+}
+
+.inst-text p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+    color: #777777;
+}
+
+/* explore institute sectio end */
+
 
 
 
@@ -142,6 +159,20 @@ body {
     }
 
     /* popular courses section end */
+
+    /* explore institute sectio start */
+    .inst-text h1 {
+        font-size: 20px;
+        line-height: 30px;
+    }
+
+    .inst-text p {
+        font-size: 14px;
+        line-height: 21px;
+    }
+
+    /* explore institute sectio end */
+
 }
 
 /* `md` applies to small devices (landscape phones, less than 768px) */
@@ -155,6 +186,19 @@ body {
         font-size: 12px;
         line-height: 18px;
     }
+
+    /* explore institute sectio start */
+    .inst-text h1 {
+        font-size: 20px;
+        line-height: 30px;
+    }
+
+    .inst-text p {
+        font-size: 14px;
+        line-height: 21px;
+    }
+
+    /* explore institute sectio end */
 }
 
 /* `lg` applies to medium devices (tablets, less than 992px) */
@@ -180,6 +224,19 @@ body {
     }
 
     /* popular courses section end */
+
+    /* explore institute sectio start */
+    .inst-text h1 {
+        font-size: 20px;
+        line-height: 30px;
+    }
+
+    .inst-text p {
+        font-size: 14px;
+        line-height: 21px;
+    }
+
+    /* explore institute sectio end */
 }
 
 /* `xl` applies to large devices (desktops, less than 1200px) */
