@@ -115,6 +115,34 @@ body {
 /* explore institute sectio end */
 
 
+/* ready to join section start */
+.join-inner {
+    background: #289BDE;
+    border-radius: 5px;
+}
+
+.join-text h1 {
+    font-weight: 600;
+    font-size: 45px;
+    line-height: 60px;
+    color: #FFFFFF;
+}
+
+.join-text p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+    color: #F4F4F4;
+}
+
+.join-btn button {
+    background-color: white;
+    color: #289BDE;
+}
+
+/* ready to join section end */
+
+
 
 
 
