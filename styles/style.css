@@ -56,6 +56,24 @@ body {
 
 /* carousol section end */
 
+/* popular courses section start */
+.popular_courses h2 {
+    font-weight: 600;
+    font-size: 45px;
+    line-height: 60px;
+    text-align: center;
+}
+
+.popular_courses p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+    text-align: center;
+    color: #777777;
+}
+
+/* popular courses section end */
+
 
 
 
@@ -88,6 +106,19 @@ body {
         padding: 4px 10px;
         margin-bottom: -10px;
     }
+
+    /* popular courses section start */
+    .popular_courses h2 {
+        font-size: 18px;
+        line-height: 27px;
+    }
+
+    .popular_courses p {
+        font-size: 12px;
+        line-height: 18px;
+    }
+
+    /* popular courses section end */
 }
 
 /* `md` applies to small devices (landscape phones, less than 768px) */
@@ -107,17 +138,35 @@ body {
 @media (min-width: 768px) and (max-width: 992px) {
     .carousel-caption h1 {
         font-size: 40px;
-        line-height: 50px;
     }
 
     .carousel-caption p {
         font-size: 16px;
         line-height: 30px;
     }
+
+    /* popular courses section start */
+    .popular_courses h2 {
+        font-size: 30px;
+    }
+
+    .popular_courses p {
+
+        font-size: 16px;
+        line-height: 30px;
+    }
+
+    /* popular courses section end */
 }
 
 /* `xl` applies to large devices (desktops, less than 1200px) */
-@media (max-width: 1199.98px) {}
+@media (min-width: 992px) and (max-width: 1400px) {
+    .course-banner {
+        margin: 130px 0 50px 0;
+    }
+}
+
+/* @media (max-width: 1199.98px) {} */
 
 /* `xxl` applies to x-large devices (large desktops, less than 1400px) */
 @media (max-width: 1399.98px) {}
