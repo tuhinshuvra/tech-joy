@@ -184,8 +184,19 @@ body {
 
 /* accordion end */
 
+/* trusted-companies start */
+.trusted-companies {
+    margin: 130px 0;
+}
 
-
+.trusted-companies h2 {
+    margin-bottom: 40px;
+    font-weight: 600;
+    font-size: 45px;
+    line-height: 60px;
+    text-align: center;
+    color: #1D1D1D;
+}
 
 
 
@@ -284,16 +295,7 @@ body {
 
     /* accordion end */
 
-    /* trusted-companies start */
-    .trusted-companies h2 {
-        font-weight: 600;
-        font-size: 45px;
-        line-height: 60px;
-        text-align: center;
-        color: #1D1D1D;
-    }
 
-    /* trusted-companies end */
 
 
 
