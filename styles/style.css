@@ -56,8 +56,6 @@ body {
 /* carousol section end */
 
 /* popular courses section start */
-.course-banner {}
-
 .popular_courses h2 {
     font-weight: 600;
     font-size: 45px;
@@ -198,12 +196,40 @@ body {
     color: #1D1D1D;
 }
 
+footer {
+    height: 472px;
+    background: #161616;
+}
+
+footer h2 {
+    font-weight: 600;
+    font-size: 40px;
+    color: #FFFFFF;
+}
+
+footer p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    color: #E8E8E8;
+
+}
+
+.social-icon i {
+    width: 50px;
+    height: 50px;
+    padding: 15px;
+    color: white;
+
+}
 
 
 
-/* media query start */
-/* `xs` returns only a ruleset and no media query */
-/* { ... } */
+
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+                    Media Query Start 
+ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+
 
 /* `sm` applies to x-small devices (portrait phones, less than 576px) */
 @media (max-width: 575.98px) {
@@ -295,10 +321,13 @@ body {
 
     /* accordion end */
 
+    footer {
+        height: 249px;
+    }
 
-
-
-
+    footer h2 {
+        font-size: 30px;
+    }
 }
 
 /* `md` applies to small devices (landscape phones, less than 768px) */
@@ -328,7 +357,7 @@ body {
 }
 
 /* `lg` applies to medium devices (tablets, less than 992px) */
-@media (min-width: 768px) and (max-width: 991px) {
+@media (min-width: 768px) and (max-width: 992px) {
     .carousel-caption h1 {
         font-size: 40px;
     }
@@ -376,16 +405,7 @@ body {
     }
 
     /* question-banner end */
+    footer {
+        height: 332px;
+    }
 }
-
-/* `xl` applies to large devices (desktops, less than 1200px) */
-@media (min-width: 992px) and (max-width: 1400px) {
-    /* .course-banner {
-        margin: 130px 0 50px 0;
-    } */
-}
-
-/* @media (max-width: 1199.98px) {} */
-
-/* `xxl` applies to x-large devices (large desktops, less than 1400px) */
-@media (max-width: 1399.98px) {}
