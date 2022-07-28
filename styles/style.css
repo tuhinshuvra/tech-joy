@@ -148,6 +148,42 @@ body {
     text-align: center;
 }
 
+/* question-banner start */
+.question-banner h1 {
+    font-weight: 600;
+    font-size: 45px;
+    line-height: 60px;
+    text-align: center;
+    color: #1D1D1D;
+}
+
+.question-banner p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+    text-align: center;
+    color: #777777;
+}
+
+/* question-banner end */
+
+/* accordion start */
+.accor-text h2 {
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 30px;
+    color: #4A4A4A;
+}
+
+.accor-text p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    color: #777777;
+}
+
+/* accordion end */
+
 
 
 
@@ -182,7 +218,7 @@ body {
     }
 
     /* popular courses section start */
-    .popular_courses h2 {
+    .course-banner h2 {
         font-size: 18px;
         line-height: 27px;
     }
@@ -221,6 +257,34 @@ body {
     }
 
     /* ready to join end */
+
+    /* question-banner start */
+    .question-banner h1 {
+        font-size: 20px;
+        line-height: 30px;
+    }
+
+    .question-banner p {
+        font-size: 14px;
+        line-height: 21px;
+    }
+
+    /* question-banner end */
+
+    /* accordion start */
+    .accor-text h2 {
+        font-size: 14px;
+        line-height: 21px;
+    }
+
+    .accor-text p {
+        font-size: 14px;
+        line-height: 21px;
+    }
+
+    /* accordion end */
+
+
 
 }
 
@@ -286,6 +350,19 @@ body {
     }
 
     /* explore institute sectio end */
+
+    /* question-banner start */
+    .question-banner h1 {
+        font-size: 30px;
+        line-height: 45px;
+    }
+
+    .question-banner p {
+        font-size: 16px;
+        line-height: 30px;
+    }
+
+    /* question-banner end */
 }
 
 /* `xl` applies to large devices (desktops, less than 1200px) */
