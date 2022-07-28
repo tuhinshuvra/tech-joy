@@ -165,6 +165,34 @@ body {
 
 /* question-banner end */
 
+/* student section start */
+.students-text h2 {
+    font-weight: 600;
+    font-size: 45px;
+    line-height: 60px;
+    color: #1D1D1D;
+}
+
+.students-text p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+    color: #777777;
+}
+
+.student-btn a {
+    background: #289BDE;
+    border: 1px solid #289BDE;
+    border-radius: 5px;
+    padding: 8px 25px;
+    color: white;
+
+}
+
+
+
+/* student section end */
+
 /* accordion start */
 .accor-text h2 {
     font-weight: 600;
